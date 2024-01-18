@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="card">
+            <div class="card-header">
+                <h1>Kalkulator</h1>
+            </div>
+            <div class="card-main">
+                <div class="angka">
+                    <label for="angka-pertama"></label>
+                    <input type="number" name="angka-pertama" id="angkapertama">
+                    <label for="angka-kedua"></label>
+                    <input type="number" name="angka-kedua" id="angkakedua">
+                </div>
+                <div class="aksi">
+                    <button onclick="hitung('tambah')">+</button>
+                    <button onclick="hitung('kurang')">-</button>
+                    <button onclick="hitung('kali')">x</button>
+                    <button onclick="hitung('bagi')">:</button>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p >Hasilnya : <span id="hasil"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

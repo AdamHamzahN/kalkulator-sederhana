@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    height: 100vh;
+    /* Adjust if needed */
+}
+
+.card {
+    align-self: center;
+    justify-self: center;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.card-header {
+    background-color: gray;
+    text-align: center;
+
+}
+
+.card-main{
+    margin: 10px;
+}
+
+
+.angka{
+    margin: 12px;
+}
+
+.aksi{
+   align-items: center;
+   display: flex;
+}
+
+.card-footer{
+    text-align: center;
+    font-size: large;
+}
+
+input{
+    height: 20px;
+    margin: 2px;
+    
+}
+
+button{
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: beige;
+    margin: 20px;
+}
